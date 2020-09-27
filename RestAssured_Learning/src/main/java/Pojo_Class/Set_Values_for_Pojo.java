@@ -13,8 +13,8 @@ public class Set_Values_for_Pojo {
 	pojo = new All_Methods_Pojo();
 	location = new Location();
 	
-	location.setLat(-38.383494);
-	location.setLng(33.427362);
+	location.setLat("-38.383494");
+	location.setLng("33.427362");
 	
 	pojo.setLocation(location);
 	pojo.setAccuracy("50");

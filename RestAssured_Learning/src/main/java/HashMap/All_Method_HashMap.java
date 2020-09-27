@@ -6,18 +6,18 @@ import java.util.List;
 
 public class All_Method_HashMap {
 
-	public HashMap<Object, Object> Post_HashMap() {
+	public HashMap<String, Object> Post_HashMap(String name, String lang) {
 
-		HashMap<Object, Object> map = new HashMap<Object, Object>();
-		HashMap<Object, Object> location = new HashMap<Object, Object>();
-		List<Object> list = new ArrayList<Object>();
+		HashMap<String, Object> map = new HashMap<String, Object>();
+		HashMap<String, Object> location = new HashMap<String, Object>();
+		List<String> list = new ArrayList<String>();
 		
 		location.put("lat", -38.383494);
 		location.put("lng", 33.427362);
 		
 		map.put("location", location);
 		map.put("accuracy", 50);
-		map.put("name", "Franklin");
+		map.put("name", name);
 		map.put("phone_number", "(+91) 983 893 3937");
 		map.put("address", "29, side layout, cohen 09");
 		
@@ -26,7 +26,7 @@ public class All_Method_HashMap {
 		
 		map.put("types", list);
 		map.put("website", "http://google.com");
-		map.put("language", "French-IN");
+		map.put("language", lang);
 		
 		return map;
 		

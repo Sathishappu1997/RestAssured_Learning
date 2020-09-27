@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API_Methods.Basic_Methods">
+      <class name="Test_Runner.Test_Runner_Class">
         <methods>
-          <include name="PutMthod"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- API_Methods.Basic_Methods -->
+      </class> <!-- Test_Runner.Test_Runner_Class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

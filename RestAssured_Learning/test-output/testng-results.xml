@@ -1,29 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9203" started-at="2020-09-26T23:49:39 IST" finished-at="2020-09-26T23:49:48 IST">
+  <suite name="Default suite" duration-ms="6455" started-at="2020-09-27T23:41:57 IST" finished-at="2020-09-27T23:42:03 IST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.Test_Runner_Class@5c18298f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9203" started-at="2020-09-26T23:49:39 IST" finished-at="2020-09-26T23:49:48 IST">
-      <class name="API_Methods.Calling_Methods_Using_HashMap">
-        <test-method status="PASS" signature="PostMethod()[pri:0, instance:API_Methods.Calling_Methods_Using_HashMap@7403c468]" name="PostMethod" duration-ms="4147" started-at="2020-09-26T23:49:39 IST" finished-at="2020-09-26T23:49:43 IST">
+    <test name="Default test" duration-ms="6455" started-at="2020-09-27T23:41:57 IST" finished-at="2020-09-27T23:42:03 IST">
+      <class name="Test_Runner.Test_Runner_Class">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Test_Runner.Test_Runner_Class@5c18298f]" name="setUpClass" is-config="true" duration-ms="507" started-at="2020-09-27T23:41:57 IST" finished-at="2020-09-27T23:41:58 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PostMethod -->
-        <test-method status="PASS" signature="PutMthod()[pri:1, instance:API_Methods.Calling_Methods_Using_HashMap@7403c468]" name="PutMthod" duration-ms="1716" started-at="2020-09-26T23:49:43 IST" finished-at="2020-09-26T23:49:45 IST">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.Test_Runner_Class@5c18298f]" name="runScenario" duration-ms="5571" started-at="2020-09-27T23:41:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-27T23:42:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test all the four request methods"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To validate the all the basic request of rahuk shetty]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PutMthod -->
-        <test-method status="PASS" signature="GettMethod()[pri:2, instance:API_Methods.Calling_Methods_Using_HashMap@7403c468]" name="GettMethod" duration-ms="1553" started-at="2020-09-26T23:49:45 IST" finished-at="2020-09-26T23:49:47 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.Test_Runner_Class@5c18298f]" name="runScenario" duration-ms="312" started-at="2020-09-27T23:42:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-27T23:42:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test all the four request methods"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To validate the all the basic request of rahuk shetty]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GettMethod -->
-        <test-method status="PASS" signature="DeleteMthod()[pri:3, instance:API_Methods.Calling_Methods_Using_HashMap@7403c468]" name="DeleteMthod" duration-ms="1694" started-at="2020-09-26T23:49:47 IST" finished-at="2020-09-26T23:49:48 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Test_Runner.Test_Runner_Class@5c18298f]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-09-27T23:42:03 IST" finished-at="2020-09-27T23:42:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeleteMthod -->
-      </class> <!-- API_Methods.Calling_Methods_Using_HashMap -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Test_Runner.Test_Runner_Class -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

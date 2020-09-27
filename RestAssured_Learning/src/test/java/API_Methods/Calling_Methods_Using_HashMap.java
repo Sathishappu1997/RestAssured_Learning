@@ -19,7 +19,7 @@ public class Calling_Methods_Using_HashMap {
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		map = new All_Method_HashMap();
 		
-		Response response = RestAssured.given().log().all().contentType(ContentType.JSON).queryParam("key", "qaclick123").body(map.Post_HashMap()).when()
+		Response response = RestAssured.given().log().all().contentType(ContentType.JSON).queryParam("key", "qaclick123").body(map.Post_HashMap("franklin","English")).when()
 				.post("/maps/api/place/add/json");
 		
 		System.out.println(response.body().toString());
